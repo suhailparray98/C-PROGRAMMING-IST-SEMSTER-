@@ -9,7 +9,7 @@ int main()
     printf("enter raised power number : ");
     scanf("%d",&b);
     c= pow(a,b);//using power math function to calculate the b power 3 i.e 2 power 3 which is equal to 8
-    printf("2 raised power 3 is :%d",c);//displaying the output to the console
+    printf("%d raised power %d is :%d",a,b,c);//displaying the output to the console
     return 0;
 }
 //code contributed by SUHAIL AHMAD PARRAY
